@@ -6,8 +6,9 @@ Evaluate whether the item contains a useful, evidence-backed signal of a real pr
 
 - **9-10: Strong validated demand.** Multiple independent users or measurable behavior show a painful, frequent problem; buyers, current workaround, and willingness to pay are identifiable.
 - **7-8: Actionable signal.** A specific target user describes a recurring or costly problem with concrete context, or a credible market change creates a clear gap worth validating.
-- **5-6: Early hypothesis.** The need is plausible and specific but supported by only one account, weak engagement, or incomplete buyer and frequency evidence.
-- **3-4: Weak signal.** Mostly opinions, generic feature requests, product promotion, vague frustration, or a solution searching for a problem.
+- **5-6: Early hypothesis.** The need is plausible and specific but supported by only one account, incomplete buyer and frequency evidence, or a product launch that clearly targets an identifiable workflow but lacks adoption evidence.
+- **4: Weak but trackable signal.** A launch or discussion identifies a concrete user and job, competitor direction, or possible gap, but provides no proof of recurring pain or willingness to pay. It must be labeled unvalidated.
+- **0-3: Noise.** Mostly opinions, generic feature requests, product promotion with no concrete user or job, vague frustration, affiliate content, or a solution searching for a problem.
 - **0-2: Noise.** Spam, affiliate marketing, copied idea lists, unsupported market claims, or content unrelated to product demand.
 
 # Evaluation guidance

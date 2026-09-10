@@ -22,7 +22,7 @@
         "topic_dedup": true
       },
       "product-opportunity": {
-        "threshold": 6.0,
+        "threshold": 4.0,
         "topic_dedup": true
       },
       "tech-blog": {
@@ -69,7 +69,10 @@
       "enabled": true,
       "fetch_top_stories": 30,
       "min_score": 150,
-      "profile": "tech-news"
+      "profile": [
+        "tech-news",
+        "product-opportunity"
+      ]
     },
     "rss": [
       {
@@ -159,7 +162,7 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 20,
-          "min_score": 20,
+          "min_score": 5,
           "profile": "product-opportunity"
         },
         {
@@ -168,7 +171,7 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 20,
-          "min_score": 20,
+          "min_score": 5,
           "profile": "product-opportunity"
         }
       ],
