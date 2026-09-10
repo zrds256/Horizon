@@ -21,6 +21,10 @@
         "threshold": 7.0,
         "topic_dedup": true
       },
+      "product-opportunity": {
+        "threshold": 6.0,
+        "topic_dedup": true
+      },
       "tech-blog": {
         "threshold": 4.0,
         "topic_dedup": false
@@ -114,6 +118,13 @@
         "profile": "tech-news"
       },
       {
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com/feed",
+        "enabled": true,
+        "category": "product-launches",
+        "profile": "product-opportunity"
+      },
+      {
         "name": "LWN.net",
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": false,
@@ -141,6 +152,24 @@
           "fetch_limit": 10,
           "min_score": 60,
           "profile": "tech-news"
+        },
+        {
+          "subreddit": "SaaS",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 20,
+          "min_score": 20,
+          "profile": "product-opportunity"
+        },
+        {
+          "subreddit": "startups",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 20,
+          "min_score": 20,
+          "profile": "product-opportunity"
         }
       ],
       "users": [],
@@ -164,6 +193,7 @@
   "digest": {
     "max_items": null,
     "profile_order": [
+      "product-opportunity",
       "tech-news",
       "tech-blog",
       "finance-news"

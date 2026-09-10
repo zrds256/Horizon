@@ -1,0 +1,53 @@
+{
+  "id": "product-opportunity",
+  "name": "Product Opportunity Signals",
+  "display_names": {
+    "zh": "产品需求与机会"
+  },
+  "match": "match.md",
+  "analysis": "analysis.md",
+  "content": {
+    "analysis_max_chars": 4000,
+    "enrichment_max_chars": 12000,
+    "sampling": "head-middle-tail"
+  },
+  "enrichment": {
+    "prompt": "enrichment.md",
+    "blocks": [
+      {
+        "id": "demand_signal",
+        "type": "section",
+        "tools": [],
+        "primary": true
+      },
+      {
+        "id": "target_user",
+        "type": "section",
+        "tools": []
+      },
+      {
+        "id": "evidence",
+        "type": "section",
+        "tools": []
+      },
+      {
+        "id": "existing_solutions",
+        "type": "section",
+        "tools": ["web_search"],
+        "optional": true
+      },
+      {
+        "id": "opportunity",
+        "type": "section",
+        "tools": [],
+        "optional": true
+      },
+      {
+        "id": "risks",
+        "type": "section",
+        "tools": [],
+        "optional": true
+      }
+    ]
+  }
+}
