@@ -22,7 +22,7 @@
         "topic_dedup": true
       },
       "product-opportunity": {
-        "threshold": 4.0,
+        "threshold": null,
         "topic_dedup": true
       },
       "tech-blog": {

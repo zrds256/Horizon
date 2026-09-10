@@ -2,6 +2,8 @@
 
 Evaluate whether the item contains a useful, evidence-backed signal of a real product need or market opportunity for a builder interested in technology, AI tools, open-source products, and software businesses.
 
+The daily digest keeps items from explicitly curated product-signal sources even when their score is low. The score therefore communicates evidence strength; it is not permission to exaggerate. Low-scoring launches must be described as competitor or trend observations, never as validated demand.
+
 # Scoring rubric
 
 - **9-10: Strong validated demand.** Multiple independent users or measurable behavior show a painful, frequent problem; buyers, current workaround, and willingness to pay are identifiable.
